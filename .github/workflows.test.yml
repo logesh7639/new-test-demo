@@ -1,0 +1,10 @@
+name: Workflow tutorial 
+on: 
+  workflow_dispatch:
+job:
+  hello:
+    runs_on:ubuntu-latest
+
+    steps:
+      - run: echo "Hello logeshwaran"
+    
